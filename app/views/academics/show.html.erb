@@ -17,9 +17,9 @@
 <hr>
 <center>
 <% @academic.courses.each do |course| %>
-<h4><strong><%= course.title %></strong><br/></h4>
+<h3><strong><%= course.title %></strong><br/></h3>
 Instructor: <%= course.instructor %> | <%= course.time %> | <%= course.location %>
 <h4  style="text-decoration: underline;">To Do List</h4>
-<%= course.todo %>
+<p><%= course.todo %></p>
 <% end %>
 </center>

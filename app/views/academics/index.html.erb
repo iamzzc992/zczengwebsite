@@ -10,15 +10,15 @@
   </h4>
 </center>
 
-<table>
-  <tr>
-    <th>Academic Term</th>
-    <th></th>
-  </tr>
+<hr>
+<center><h2> Academic Terms </h2>
+  <% @academics.reverse.each do |academic| %>
 
-  <% @academics.each do |academic| %>
-    <tr>
-      <td><%= link_to academic.title, academic_path(academic) %></td>
-    </tr>
+  <h3><%= link_to academic.title, academic_path(academic) %></br></h3>
+      <h4>Course(s):</h4>
+      <% academic.courses.each do |course| %>
+      <%= course.title %><br/>
+      <% end %>
+    </br>
   <% end %>
-</table>
+</center>

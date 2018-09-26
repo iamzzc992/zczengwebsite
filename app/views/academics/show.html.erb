@@ -1,14 +1,4 @@
-<center>
-  <h1><strong><span style = "color:F39C12">Zhicheng</span>
-    <span style = "color:007D41">Zeng</span></strong></h1>
-  <h4>
-    <i class="fa fa-home"></i> <a href="/welcome/index" style = "color:F39C12"><strong>Home</strong></a> &nbsp; | &nbsp;
-    <i class="fa fa-book"></i> <%# <a href="http://zczeng.ca/academic.html" style = "color:007D41">My Academic</a>%>
-    <%= link_to 'My Academic', controller: 'academics' %> &nbsp; | &nbsp;
-    <i class="fa fa-linkedin"></i> <a href="http://www.linkedin.com/in/zczeng"style = "color:blue">LinkedIn</a> &nbsp; | &nbsp;
-    <i class="fa fa-envelope"></i> <a href="mailto:z57zeng@edu.uwaterloo.ca" style = "color:brown">Email</a>
-  </h4>
-</center>
+<%= render "layouts/header" %>
 
 <hr>
 <p>
@@ -20,6 +10,6 @@
 <h3><strong><%= course.title %></strong><br/></h3>
 Instructor: <%= course.instructor %> | <%= course.time %> | <%= course.location %>
 <h4  style="text-decoration: underline;">To Do List</h4>
-<p><%= course.todo %></p>
+<textarea cols="50" rows="5" readonly="true"><%= course.todo %></textarea>
 <% end %>
 </center>

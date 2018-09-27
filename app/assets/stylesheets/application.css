@@ -32,22 +32,27 @@
 
 .home_button {
   font-weight: bold;
-  color: #004D00;
+  color: brown;
 }
 
 .academic_button {
   font-weight: bold;
-  color: #FF7A00;
+  color: #004D00;
 }
 
 .linkedin_button {
   font-weight: bold;
-  color: blue;
+  color: #FF7A00;
+}
+
+.github_button {
+  font-weight: bold;
+  color: #FF7A00;
 }
 
 .email_button {
   font-weight: bold;
-  color: brown;
+  color: #FF7A00;
 }
 
 /* GENERAL */

@@ -16,3 +16,46 @@
  /*
   *= require font-awesome
   */
+
+@import "font-awesome";
+
+/* HEADER */
+.firstname {
+  color: #004D00;
+  font-weight: bold;
+}
+
+.lastname{
+  color: #FF7A00;
+  font-weight: bold;
+}
+
+.welcome {
+  color: #004D00;
+  font-weight: bold;
+}
+
+.welcome_text {
+  text-align:left;
+  width:60%
+}
+
+.home_button {
+  font-weight: bold;
+  color: #004D00;
+}
+
+.academic_button {
+  font-weight: bold;
+  color: #FF7A00;
+}
+
+.linkedin_button {
+  font-weight: bold;
+  color: blue;
+}
+
+.email_button {
+  font-weight: bold;
+  color: brown;
+}

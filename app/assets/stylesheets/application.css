@@ -66,7 +66,7 @@
   color: #FF7A00;
   font-size: 20px;
   font-weight: bold;
-  width:60%;
+  width:700px;
   text-align:left;
 }
 
@@ -74,13 +74,13 @@
   color: black;
   font-size: 16px;
   text-align: left;
-  width:60%;
+  width:700px;
 }
 
 /* INDEX */
 .welcome_text {
   text-align:center;
-  width:60%;
+  width:700px;
 }
 
 .grouping {
@@ -93,13 +93,13 @@
 
 .secondary_job_description {
   margin-top: -8pt;
-  margin-left: 4pt;
-  width:650px;
+  margin-left: 40px;
+  width:700px;
   text-align:left;
 }
 
 .primary_job_description {
   margin-top: -8pt;
   text-align: left;
-  width: 60%;
+  width: 700px;
 }

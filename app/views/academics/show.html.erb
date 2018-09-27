@@ -2,14 +2,14 @@
 
 <br/>
 <p>
-  <h2><center><strong><%= @academic.title %></strong><centre></h2>
+  <div class="section_title" style="color: #004d00"><%= @academic.title %></div>
 </p>
-<hr>
+
 <center>
 <% @academic.courses.each do |course| %>
 <h3><strong><%= course.title %></strong><br/></h3>
 Instructor: <%= course.instructor %> | <%= course.time %> | <%= course.location %>
 <h4  style="text-decoration: underline;">To Do List</h4>
-<div style="width: 40%; background-color: lightgrey;"><%= course.todo %></div>
+<div><%= simple_format(course.todo) %></div>
 <% end %>
 </center>
